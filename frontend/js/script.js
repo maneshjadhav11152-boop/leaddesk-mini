@@ -54,8 +54,7 @@ form.addEventListener("submit",(e)=>{
     }
 
 
-
-  fetch("http://localhost:5000/api/leads",{
+  fetch("https://leaddesk-mini-klen.onrender.com/api/leads",{
 
     method:"POST",
 

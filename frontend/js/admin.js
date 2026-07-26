@@ -17,7 +17,7 @@ async function getLeads(){
 
     const response = await fetch(
 
-        "http://localhost:5000/api/leads",
+        "https://leaddesk-mini-klen.onrender.com/api/leads",
 
         {
 
@@ -147,7 +147,7 @@ async function updateStatus(id,status){
 
     await fetch(
 
-        `http://localhost:5000/api/leads/${id}`,
+        `https://leaddesk-mini-klen.onrender.com/api/leads/${id}`,
 
         {
 
