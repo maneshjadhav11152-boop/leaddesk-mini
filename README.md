@@ -41,11 +41,6 @@ A modern Full Stack Lead Management application built for the **Digital Heroes F
 - Netlify
 - Render
 
-## 📸 Screenshots
-
-- Landing Page
-- Admin Dashboard
-
 ## 🤖 AI Usage
 
 I used ChatGPT to understand the project requirements, debug frontend and backend issues, improve validation, and prepare the README documentation. I reviewed and tested all generated code, made necessary modifications, and ensured the final implementation worked correctly before deployment.
