@@ -53,7 +53,6 @@ form.addEventListener("submit",(e)=>{
 
     }
 
-
   fetch("https://leaddesk-mini-klen.onrender.com/api/leads",{
 
     method:"POST",
