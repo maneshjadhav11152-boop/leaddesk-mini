@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+
+    background:#f4f7fb;
+}
+
+
+header{
+
+    background:#111827;
+    color:white;
+    padding:20px 10%;
+
+}
+
+
+nav h2{
+
+    font-size:24px;
+
+}
+
+
+
+.hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:50px;
+
+    padding:40px 10%;
+
+}
+
+
+.hero-content{
+
+    max-width:500px;
+
+}
+
+
+.hero-content h1{
+
+    font-size:45px;
+    margin-bottom:20px;
+
+}
+
+
+.hero-content p{
+
+    font-size:18px;
+    color:#555;
+
+}
+
+
+
+.form-container{
+
+    background:white;
+
+    padding:30px;
+
+    width:350px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+}
+
+
+.form-container h2{
+
+    margin-bottom:20px;
+
+}
+
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+
+textarea{
+
+    height:100px;
+
+    resize:none;
+
+}
+
+
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+#responseMessage{
+
+    margin-top:15px;
+
+}
+
+
+
+@media(max-width:800px){
+
+
+.hero{
+
+    flex-direction:column;
+
+}
+
+
+.hero-content h1{
+
+    font-size:35px;
+
+}
+
+}
+
